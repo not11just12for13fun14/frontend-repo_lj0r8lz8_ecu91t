@@ -1,0 +1,133 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 200 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.25.190:3000/
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to resolve import "../assets/hero-illustration.svg" from "src/pages/Landing.jsx". Does the file exist?
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:51 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:04:52 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/lib/a11y.js:39:79
+  37 |  
+  38 |    const value = useMemo(() => ({ settings, setSettings }), [settings])
+  39 |    return <A11yContext.Provider value={value}>{children}</A11yContext.Provider>
+     |                                                                                ^
+  40 |  }
+  41 |  
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64258:14)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+2:04:52 PM [vite] Internal server error: Failed to resolve import "../assets/hero-illustration.svg" from "src/pages/Landing.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/pages/Landing.jsx:4:17
+  3  |  import { Navbar, Footer, Button, Card, Section } from "../components/ui";
+  4  |  import { Camera, Hand, BookOpen, CheckCircle2, Quote } from "lucide-react";
+  5  |  import hero from "../assets/hero-illustration.svg";
+     |                    ^
+  6  |  export default function Landing() {
+  7  |    return /* @__PURE__ */ jsxDEV("div", { className: "bg-white text-slate-900 dark:bg-slate-950 dark:text-white", children: [
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+2:04:52 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:05:15 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/lib/a11y.js:39:79
+  37 |  
+  38 |    const value = useMemo(() => ({ settings, setSettings }), [settings])
+  39 |    return <A11yContext.Provider value={value}>{children}</A11yContext.Provider>
+     |                                                                                ^
+  40 |  }
+  41 |  
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64258:14)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+2:05:15 PM [vite] Internal server error: Failed to resolve import "../assets/hero-illustration.svg" from "src/pages/Landing.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/pages/Landing.jsx:4:17
+  3  |  import { Navbar, Footer, Button, Card, Section } from "../components/ui";
+  4  |  import { Camera, Hand, BookOpen, CheckCircle2, Quote } from "lucide-react";
+  5  |  import hero from "../assets/hero-illustration.svg";
+     |                    ^
+  6  |  export default function Landing() {
+  7  |    return /* @__PURE__ */ jsxDEV("div", { className: "bg-white text-slate-900 dark:bg-slate-950 dark:text-white", children: [
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+2:05:15 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+2:05:30 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/lib/a11y.js:39:79
+  37 |  
+  38 |    const value = useMemo(() => ({ settings, setSettings }), [settings])
+  39 |    return <A11yContext.Provider value={value}>{children}</A11yContext.Provider>
+     |                                                                                ^
+  40 |  }
+  41 |  
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64258:14)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+2:05:30 PM [vite] Internal server error: Failed to resolve import "../assets/hero-illustration.svg" from "src/pages/Landing.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/pages/Landing.jsx:4:17
+  3  |  import { Navbar, Footer, Button, Card, Section } from "../components/ui";
+  4  |  import { Camera, Hand, BookOpen, CheckCircle2, Quote } from "lucide-react";
+  5  |  import hero from "../assets/hero-illustration.svg";
+     |                    ^
+  6  |  export default function Landing() {
+  7  |    return /* @__PURE__ */ jsxDEV("div", { className: "bg-white text-slate-900 dark:bg-slate-950 dark:text-white", children: [
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+2:05:30 PM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
