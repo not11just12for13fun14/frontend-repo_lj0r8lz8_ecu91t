@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { Navbar, Footer, Button, Card, Section } from '../components/ui'
 import { Camera, Hand, BookOpen, CheckCircle2, Quote } from 'lucide-react'
-import hero from '../assets/hero-illustration.svg'
 
 export default function Landing() {
   return (
